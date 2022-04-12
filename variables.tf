@@ -53,10 +53,6 @@ variable "ssh_authorized_keys" {
   type = string
 }
 
-variable "ssh_secret_key" {
-  type = string
-}
-
 variable "zerotier_network_id" {
   type = string
 }
