@@ -3,7 +3,7 @@ resource "proxmox_vm_qemu" "this" {
     remote_file.cloud_init
   ]
 
-  name        = "${var.compartment}-${var.name}-${random_string.deployment_id.result}"
+  name        = "${var.name}-${random_string.deployment_id.result}"
   vmid        = var.id
   target_node = var.node
 
