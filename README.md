@@ -1,6 +1,6 @@
-# Proxmox VM for Kubernetes
+# Proxmox Kubernetes Virtual Machine
 
-This module provisions a Proxmox Virtual Machine, configured as kubernetes node.
+This module provisions a Proxmox Virtual Machine, for a Kubernetes Cluster.
 
 ```hcl
 module "kubernetes_node" {
