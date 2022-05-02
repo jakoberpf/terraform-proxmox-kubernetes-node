@@ -16,6 +16,7 @@ resource "proxmox_vm_qemu" "this" {
   memory = var.instance_memory
   cores  = var.instance_cpus
   agent  = 1
+  onboot = true
 
   bootdisk = "virtio0"
   scsihw   = "virtio-scsi-pci"
