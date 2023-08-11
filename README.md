@@ -33,7 +33,7 @@ module "kubernetes_node" {
 
 | Name | Version |
 |------|---------|
-| <a name="requirement_proxmox"></a> [proxmox](#requirement\_proxmox) | 2.9.4 |
+| <a name="requirement_proxmox"></a> [proxmox](#requirement\_proxmox) | 2.9.14 |
 | <a name="requirement_remote"></a> [remote](#requirement\_remote) | 0.0.23 |
 | <a name="requirement_zerotier"></a> [zerotier](#requirement\_zerotier) | 1.2.0 |
 
@@ -41,7 +41,7 @@ module "kubernetes_node" {
 
 | Name | Version |
 |------|---------|
-| <a name="provider_proxmox"></a> [proxmox](#provider\_proxmox) | 2.9.4 |
+| <a name="provider_proxmox"></a> [proxmox](#provider\_proxmox) | 2.9.14 |
 | <a name="provider_random"></a> [random](#provider\_random) | n/a |
 | <a name="provider_remote"></a> [remote](#provider\_remote) | 0.0.23 |
 | <a name="provider_template"></a> [template](#provider\_template) | n/a |
@@ -55,7 +55,7 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [proxmox_vm_qemu.this](https://registry.terraform.io/providers/telmate/proxmox/2.9.4/docs/resources/vm_qemu) | resource |
+| [proxmox_vm_qemu.this](https://registry.terraform.io/providers/telmate/proxmox/2.9.14/docs/resources/vm_qemu) | resource |
 | [random_id.argo_tunnel_secret](https://registry.terraform.io/providers/hashicorp/random/latest/docs/resources/id) | resource |
 | [random_string.deployment_id](https://registry.terraform.io/providers/hashicorp/random/latest/docs/resources/string) | resource |
 | [remote_file.cloud_init](https://registry.terraform.io/providers/tenstad/remote/0.0.23/docs/resources/file) | resource |
