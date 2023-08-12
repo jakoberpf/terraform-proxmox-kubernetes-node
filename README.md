@@ -35,7 +35,7 @@ module "kubernetes_node" {
 |------|---------|
 | <a name="requirement_proxmox"></a> [proxmox](#requirement\_proxmox) | 2.9.4 |
 | <a name="requirement_remote"></a> [remote](#requirement\_remote) | 0.0.23 |
-| <a name="requirement_zerotier"></a> [zerotier](#requirement\_zerotier) | 1.2.0 |
+| <a name="requirement_zerotier"></a> [zerotier](#requirement\_zerotier) | 1.4.2 |
 
 ## Providers
 
@@ -45,7 +45,7 @@ module "kubernetes_node" {
 | <a name="provider_random"></a> [random](#provider\_random) | n/a |
 | <a name="provider_remote"></a> [remote](#provider\_remote) | 0.0.23 |
 | <a name="provider_template"></a> [template](#provider\_template) | n/a |
-| <a name="provider_zerotier"></a> [zerotier](#provider\_zerotier) | 1.2.0 |
+| <a name="provider_zerotier"></a> [zerotier](#provider\_zerotier) | 1.4.2 |
 
 ## Modules
 
@@ -59,8 +59,8 @@ No modules.
 | [random_id.argo_tunnel_secret](https://registry.terraform.io/providers/hashicorp/random/latest/docs/resources/id) | resource |
 | [random_string.deployment_id](https://registry.terraform.io/providers/hashicorp/random/latest/docs/resources/string) | resource |
 | [remote_file.cloud_init](https://registry.terraform.io/providers/tenstad/remote/0.0.23/docs/resources/file) | resource |
-| [zerotier_identity.this](https://registry.terraform.io/providers/zerotier/zerotier/1.2.0/docs/resources/identity) | resource |
-| [zerotier_member.this](https://registry.terraform.io/providers/zerotier/zerotier/1.2.0/docs/resources/member) | resource |
+| [zerotier_identity.this](https://registry.terraform.io/providers/zerotier/zerotier/1.4.2/docs/resources/identity) | resource |
+| [zerotier_member.this](https://registry.terraform.io/providers/zerotier/zerotier/1.4.2/docs/resources/member) | resource |
 | [template_file.cloud_init](https://registry.terraform.io/providers/hashicorp/template/latest/docs/data-sources/file) | data source |
 
 ## Inputs
